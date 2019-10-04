@@ -1,0 +1,47 @@
+.btn{
+    width: 15%;
+    height: 190px;
+    border: none;
+    border-radius: 50%;
+    margin-right:60px; 
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 2.3em;
+    letter-spacing: 2px;
+}
+
+.controls {
+    margin-top:100px;
+}
+.btn-stop {
+ 
+   background-color: brown;
+}
+
+.btn-start{
+ 
+   background-color: darkgreen;
+}
+
+.btn-reset{
+  
+   background-color: yellowgreen;
+}
+
+.btn-start:hover{
+    background-color: rgb(0, 200, 0);
+}
+
+.btn-stop:hover{
+    background-color: rgb(200, 0, 0);
+}
+
+.btn-reset:hover{
+    background-color: rgb(241, 250, 123);
+}
+
+.btn:active {
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+ }

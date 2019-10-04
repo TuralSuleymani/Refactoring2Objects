@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/animate.js"></script>
+</head>
+
+<body>
+
+    <script id="scr">
+        document.addEventListener('DOMContentLoaded', function () {
+
+            //create all html elements
+            loadAllHtmlContent();
+
+            document.querySelector('.btn-start').addEventListener('click', function () {
+
+                animation.animate('animetableImage', 10);
+
+            });
+
+            document.querySelector('.btn-stop').addEventListener('click', function () {
+
+                animation.stopAnimate();
+
+            });
+
+            document.querySelector('.btn-reset').addEventListener('click', function () {
+
+                animation.resetAnimate('animetableImage');
+
+            });
+
+        });
+    </script>
+</body>
+
+</html>
